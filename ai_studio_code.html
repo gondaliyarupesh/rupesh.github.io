@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupesh Gondariya | Senior Laravel & Backend Developer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#f43f5e', // modern red/rose accent matching Laravel style
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-200 font-sans antialiased selection:bg-rose-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight text-white hover:text-rose-500 transition-colors">
+        Rupesh<span class="text-rose-500">.dev</span>
+      </a>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#skills" class="hover:text-white transition">Skills</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
+        <a href="#education" class="hover:text-white transition">Education</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </div>
+      <a href="#contact" class="px-4 py-2 text-sm font-semibold rounded-lg bg-rose-600 hover:bg-rose-500 text-white transition shadow-lg shadow-rose-600/30">
+        Get In Touch
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center pt-24 pb-16 px-6 relative overflow-hidden">
+    <!-- Ambient Background Glow -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-rose-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-rose-500/30 bg-rose-500/10 text-rose-400 text-xs font-semibold mb-6">
+        <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+        Available for Backend & Web Architecture Projects
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight mb-6">
+        Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-amber-500">Rupesh Gondariya</span>
+      </h1>
+      
+      <p class="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed mb-8">
+        Senior Software Engineer specializing in <span class="text-slate-200 font-semibold">Laravel</span>, <span class="text-slate-200 font-semibold">PHP</span>, and robust Linux server environments. Delivering scalable, high-performance web applications.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="#contact" class="px-6 py-3 rounded-lg bg-rose-600 hover:bg-rose-500 text-white font-medium shadow-lg shadow-rose-600/25 transition">
+          Hire Me
+        </a>
+        <a href="https://www.linkedin.com/in/rupesh-gondariya-02881556/" target="_blank" class="px-6 py-3 rounded-lg border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-slate-300 font-medium transition flex items-center gap-2">
+          <i class="fab fa-linkedin text-rose-500"></i> LinkedIn Profile
+        </a>
+      </div>
+
+      <!-- Quick Metrics -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 mt-16 border-t border-slate-800/80 pt-10 text-left">
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60">
+          <div class="text-2xl font-bold text-white mb-1">6+ Years</div>
+          <div class="text-xs text-slate-400">PHP & Laravel Experience</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60">
+          <div class="text-2xl font-bold text-white mb-1">Full-Cycle</div>
+          <div class="text-xs text-slate-400">API, Backend & Server Deployments</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/40 border border-slate-800/60 col-span-2 sm:col-span-1">
+          <div class="text-2xl font-bold text-white mb-1">Bhuj, India</div>
+          <div class="text-xs text-slate-400">Location</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 border-t border-slate-800/60 bg-slate-900/30">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-2">About Me</h2>
+      <h3 class="text-3xl font-bold text-white mb-6">Building scalable solutions from code to server.</h3>
+      <div class="text-slate-300 space-y-4 leading-relaxed text-base">
+        <p>
+          I am a passionate Laravel & PHP developer with extensive experience in architecting, maintaining, and scaling enterprise web applications. With a strong grasp of Linux infrastructure and network administration, I ensure that applications are not just well-written, but fast, secure, and reliably deployed.
+        </p>
+        <p>
+          Whether it is complex REST API integrations, database optimization, or server orchestration, I focus on clean architectures that drive real-world business success.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-6 border-t border-slate-800/60">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-2">Expertise</h2>
+      <h3 class="text-3xl font-bold text-white mb-12">Technical Skills</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Backend -->
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:border-rose-500/40 transition">
+          <div class="w-12 h-12 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-500 mb-5">
+            <i class="fas fa-server text-xl"></i>
+          </div>
+          <h4 class="text-lg font-semibold text-white mb-3">Backend Development</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Laravel (Primary)</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Core PHP / OOP</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> CodeIgniter</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> RESTful API Architecture</li>
+          </ul>
+        </div>
+
+        <!-- Infrastructure & DevOps -->
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:border-rose-500/40 transition">
+          <div class="w-12 h-12 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-500 mb-5">
+            <i class="fas fa-network-wired text-xl"></i>
+          </div>
+          <h4 class="text-lg font-semibold text-white mb-3">DevOps & Systems</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Linux Administration</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Server Setup & Management</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Network Administration</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Apache / Nginx Deployment</li>
+          </ul>
+        </div>
+
+        <!-- Database & Data -->
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:border-rose-500/40 transition">
+          <div class="w-12 h-12 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-500 mb-5">
+            <i class="fas fa-database text-xl"></i>
+          </div>
+          <h4 class="text-lg font-semibold text-white mb-3">Database & Tools</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> MySQL / Relational DBs</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Git / Version Control</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Machine Learning Concepts</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500 text-xs"></i> Third-party API Integrations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-20 px-6 border-t border-slate-800/60 bg-slate-900/20">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-2">Career</h2>
+      <h3 class="text-3xl font-bold text-white mb-12">Work Experience</h3>
+
+      <div class="space-y-8 relative before:absolute before:inset-0 before:left-3.5 before:w-0.5 before:bg-slate-800">
+        
+        <!-- Experience Item 1 -->
+        <div class="relative pl-10">
+          <span class="absolute left-1.5 top-1.5 w-4 h-4 rounded-full border-2 border-rose-500 bg-slate-950"></span>
+          <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800/80">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <h4 class="text-lg font-semibold text-white">Sr. Software Engineer</h4>
+              <span class="text-xs px-2.5 py-1 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20 font-medium">May 2019 – Present</span>
+            </div>
+            <div class="text-sm text-rose-400 font-medium mb-3">Shree Softech · Bhuj, Gujarat, India</div>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+              Lead backend engineer responsible for end-to-end web application design, API architecture, database indexing, and server operations. Continuously developing secure, modular, and high-performance Laravel enterprise platforms.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2 py-1 rounded bg-slate-800 text-slate-300">Laravel</span>
+              <span class="px-2 py-1 rounded bg-slate-800 text-slate-300">PHP</span>
+              <span class="px-2 py-1 rounded bg-slate-800 text-slate-300">Linux Administration</span>
+              <span class="px-2 py-1 rounded bg-slate-800 text-slate-300">REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="relative pl-10">
+          <span class="absolute left-1.5 top-1.5 w-4 h-4 rounded-full border-2 border-slate-700 bg-slate-950"></span>
+          <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800/80">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <h4 class="text-lg font-semibold text-white">Project Intern</h4>
+              <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-400 font-medium">Dec 2018 – Mar 2019</span>
+            </div>
+            <div class="text-sm text-slate-400 font-medium mb-3">Hex Wireless Pvt Ltd · Vadodara, Gujarat, India</div>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Researched and implemented machine learning models to improve telecom routing and service efficiencies.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-20 px-6 border-t border-slate-800/60">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-2">Academic Background</h2>
+      <h3 class="text-3xl font-bold text-white mb-8">Education</h3>
+
+      <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 flex items-start gap-4">
+        <div class="w-12 h-12 rounded-xl bg-slate-800 flex-shrink-0 flex items-center justify-center text-rose-500">
+          <i class="fas fa-graduation-cap text-xl"></i>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold text-white">Master's Degree in Computer Science</h4>
+          <p class="text-slate-400 text-sm">Krantiguru Shyamji Krishna Verma Kachchh University (KSKVKU)</p>
+          <p class="text-xs text-slate-500 mt-1">2013 – 2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 border-t border-slate-800/60 bg-slate-900/40">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-xs uppercase tracking-widest text-rose-500 font-semibold mb-2">Get in touch</h2>
+      <h3 class="text-3xl sm:text-4xl font-bold text-white mb-6">Let's build something great together.</h3>
+      <p class="text-slate-400 max-w-xl mx-auto mb-10 text-sm">
+        Whether you have a new project, looking for consultation, or need a senior Laravel specialist on your team, feel free to reach out.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="mailto:gondaliyarupesh@gmail.com" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-medium transition flex items-center justify-center gap-3">
+          <i class="fas fa-envelope"></i> gondaliyarupesh@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/rupesh-gondariya-02881556/" target="_blank" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium transition flex items-center justify-center gap-3 border border-slate-700">
+          <i class="fab fa-linkedin text-rose-400"></i> Connect on LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 border-t border-slate-800/80 text-center text-xs text-slate-500">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© <span id="year"></span> Rupesh Gondariya. All rights reserved.</p>
+      <p class="text-slate-500">Built with HTML & Tailwind CSS</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
